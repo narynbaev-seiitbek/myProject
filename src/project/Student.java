@@ -4,12 +4,24 @@ import java.time.LocalDate;
 
 public class Student extends Person {
 
-    private Person person;
 
     public Student() {
     }
 
-    public Student(Person person){
-    this.person = person;
+    public Student(String name, String lastName, LocalDate dateOfBirth) {
+        super(name, lastName, dateOfBirth);
+
     }
+
+
+    @Override
+    public void talk() {
+        super.talk();
+    }
+
+    @Override
+    public void run() {
+        super.run();
+    }
+
 }

@@ -10,4 +10,17 @@ public class Instructor extends Person{
     public Instructor(String name, String lastName, LocalDate dateOfBirth) {
         super(name, lastName, dateOfBirth);
     }
+
+    @Override
+    public void talk() {
+        super.talk();
+    }
+
+    @Override
+    public void run() {
+        super.run();
+    }
+
+
+
 }

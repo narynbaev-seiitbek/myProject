@@ -59,11 +59,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", dateOfBirth=" + dateOfBirth +
-                '}';
+        return
+                "name: " + name + '\n' +
+                "lastName: " + lastName + '\n' +
+                "age: " + age +'\n'+
+                "dateOfBirth: " + dateOfBirth;
     }
 }
